@@ -8,6 +8,8 @@ for anyone who wishes to create a game system plugin for Proelia 2.1.
 Building
 ---
 
+This plugin should be built using Xcode 4, using the 10.7 or 10.8 SDK.
+
 The following changes must be made for your game system plugin:
 
 1. You will probably want to rename the project directories to represent your plugin name,
