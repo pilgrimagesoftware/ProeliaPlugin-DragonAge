@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B3172BE154E012500776ABE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3172BD154E012500776ABE /* Cocoa.framework */; };
+		5B3172D6154E013B00776ABE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3172BD154E012500776ABE /* Cocoa.framework */; };
+		5B3172EF154E023900776ABE /* DragonAgeGameSystemTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172E8154E023900776ABE /* DragonAgeGameSystemTests-Info.plist */; };
+		5B3172F0154E023900776ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172E9154E023900776ABE /* InfoPlist.strings */; };
+		5B3172F1154E023900776ABE /* DragonAgeGameSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3172EE154E023900776ABE /* DragonAgeGameSystemTests.m */; };
+		5B317336154E024600776ABE /* DragonAgeGameSystem-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172F3154E024500776ABE /* DragonAgeGameSystem-Info.plist */; };
+		5B317337154E024600776ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172F4154E024500776ABE /* InfoPlist.strings */; };
+		5B317338154E024600776ABE /* condition-blinded-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172F7154E024500776ABE /* condition-blinded-off.png */; };
+		5B317339154E024600776ABE /* condition-blinded-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172F8154E024500776ABE /* condition-blinded-on.png */; };
+		5B31733A154E024600776ABE /* condition-blinded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172F9154E024500776ABE /* condition-blinded.png */; };
+		5B31733B154E024600776ABE /* condition-dazed-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172FA154E024500776ABE /* condition-dazed-off.png */; };
+		5B31733C154E024600776ABE /* condition-dazed-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172FB154E024500776ABE /* condition-dazed-on.png */; };
+		5B31733D154E024600776ABE /* condition-dazed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172FC154E024500776ABE /* condition-dazed.png */; };
+		5B31733E154E024600776ABE /* condition-deafened-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172FD154E024500776ABE /* condition-deafened-off.png */; };
+		5B31733F154E024600776ABE /* condition-deafened-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172FE154E024500776ABE /* condition-deafened-on.png */; };
+		5B317340154E024600776ABE /* condition-deafened.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3172FF154E024500776ABE /* condition-deafened.png */; };
+		5B317341154E024600776ABE /* condition-dominated-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317300154E024500776ABE /* condition-dominated-off.png */; };
+		5B317342154E024600776ABE /* condition-dominated-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317301154E024500776ABE /* condition-dominated-on.png */; };
+		5B317343154E024600776ABE /* condition-dominated.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317302154E024500776ABE /* condition-dominated.png */; };
+		5B317344154E024600776ABE /* condition-dying-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317303154E024500776ABE /* condition-dying-off.png */; };
+		5B317345154E024600776ABE /* condition-dying-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317304154E024500776ABE /* condition-dying-on.png */; };
+		5B317346154E024600776ABE /* condition-dying.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317305154E024500776ABE /* condition-dying.png */; };
+		5B317347154E024600776ABE /* condition-grabbed-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317306154E024500776ABE /* condition-grabbed-off.png */; };
+		5B317348154E024600776ABE /* condition-grabbed-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317307154E024500776ABE /* condition-grabbed-on.png */; };
+		5B317349154E024600776ABE /* condition-grabbed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317308154E024500776ABE /* condition-grabbed.png */; };
+		5B31734A154E024600776ABE /* condition-helpless-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317309154E024500776ABE /* condition-helpless-off.png */; };
+		5B31734B154E024600776ABE /* condition-helpless-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31730A154E024500776ABE /* condition-helpless-on.png */; };
+		5B31734C154E024600776ABE /* condition-helpless.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31730B154E024500776ABE /* condition-helpless.png */; };
+		5B31734D154E024600776ABE /* condition-immobilized-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31730C154E024500776ABE /* condition-immobilized-off.png */; };
+		5B31734E154E024600776ABE /* condition-immobilized-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31730D154E024500776ABE /* condition-immobilized-on.png */; };
+		5B31734F154E024600776ABE /* condition-immobilized.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31730E154E024500776ABE /* condition-immobilized.png */; };
+		5B317350154E024600776ABE /* condition-marked-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31730F154E024500776ABE /* condition-marked-off.png */; };
+		5B317351154E024600776ABE /* condition-marked-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317310154E024500776ABE /* condition-marked-on.png */; };
+		5B317352154E024600776ABE /* condition-marked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317311154E024500776ABE /* condition-marked.png */; };
+		5B317353154E024600776ABE /* condition-petrified-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317312154E024500776ABE /* condition-petrified-off.png */; };
+		5B317354154E024600776ABE /* condition-petrified-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317313154E024500776ABE /* condition-petrified-on.png */; };
+		5B317355154E024600776ABE /* condition-petrified.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317314154E024500776ABE /* condition-petrified.png */; };
+		5B317356154E024600776ABE /* condition-poisoned-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317315154E024500776ABE /* condition-poisoned-off.png */; };
+		5B317357154E024600776ABE /* condition-poisoned-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317316154E024500776ABE /* condition-poisoned-on.png */; };
+		5B317358154E024600776ABE /* condition-poisoned.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317317154E024500776ABE /* condition-poisoned.png */; };
+		5B317359154E024600776ABE /* condition-prone-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317318154E024500776ABE /* condition-prone-off.png */; };
+		5B31735A154E024600776ABE /* condition-prone-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317319154E024500776ABE /* condition-prone-on.png */; };
+		5B31735B154E024600776ABE /* condition-prone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31731A154E024500776ABE /* condition-prone.png */; };
+		5B31735C154E024600776ABE /* condition-removed-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31731B154E024500776ABE /* condition-removed-off.png */; };
+		5B31735D154E024600776ABE /* condition-removed-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31731C154E024500776ABE /* condition-removed-on.png */; };
+		5B31735E154E024600776ABE /* condition-removed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31731D154E024500776ABE /* condition-removed.png */; };
+		5B31735F154E024600776ABE /* condition-restrained-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31731E154E024500776ABE /* condition-restrained-off.png */; };
+		5B317360154E024600776ABE /* condition-restrained-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31731F154E024500776ABE /* condition-restrained-on.png */; };
+		5B317361154E024600776ABE /* condition-restrained.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317320154E024500776ABE /* condition-restrained.png */; };
+		5B317362154E024600776ABE /* condition-slowed-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317321154E024500776ABE /* condition-slowed-off.png */; };
+		5B317363154E024600776ABE /* condition-slowed-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317322154E024500776ABE /* condition-slowed-on.png */; };
+		5B317364154E024600776ABE /* condition-slowed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317323154E024500776ABE /* condition-slowed.png */; };
+		5B317365154E024600776ABE /* condition-stunned-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317324154E024500776ABE /* condition-stunned-off.png */; };
+		5B317366154E024600776ABE /* condition-stunned-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317325154E024500776ABE /* condition-stunned-on.png */; };
+		5B317367154E024600776ABE /* condition-stunned.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317326154E024500776ABE /* condition-stunned.png */; };
+		5B317368154E024600776ABE /* condition-surprised-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317327154E024500776ABE /* condition-surprised-off.png */; };
+		5B317369154E024600776ABE /* condition-surprised-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317328154E024500776ABE /* condition-surprised-on.png */; };
+		5B31736A154E024600776ABE /* condition-surprised.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B317329154E024500776ABE /* condition-surprised.png */; };
+		5B31736B154E024600776ABE /* condition-unconscious-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31732A154E024500776ABE /* condition-unconscious-off.png */; };
+		5B31736C154E024600776ABE /* condition-unconscious-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31732B154E024500776ABE /* condition-unconscious-on.png */; };
+		5B31736D154E024600776ABE /* condition-unconscious.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31732C154E024500776ABE /* condition-unconscious.png */; };
+		5B31736E154E024600776ABE /* condition-weakened-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31732D154E024500776ABE /* condition-weakened-off.png */; };
+		5B31736F154E024600776ABE /* condition-weakened-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31732E154E024500776ABE /* condition-weakened-on.png */; };
+		5B317370154E024600776ABE /* condition-weakened.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B31732F154E024500776ABE /* condition-weakened.png */; };
+		5B317371154E024600776ABE /* DragonAgeConditionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B317332154E024500776ABE /* DragonAgeConditionProvider.m */; };
+		5B317372154E024600776ABE /* DragonAgeGameSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B317335154E024500776ABE /* DragonAgeGameSystem.m */; };
+		5B317375154E1D8300776ABE /* DragonAgeConditionProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B317374154E1D8300776ABE /* DragonAgeConditionProviderTests.m */; };
+		5B31749A154E252000776ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B317499154E252000776ABE /* Foundation.framework */; };
+		5B31749C154E252E00776ABE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B31749B154E252E00776ABE /* SenTestingKit.framework */; };
+		5B31749D154E254700776ABE /* DragonAgeGameSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B317335154E024500776ABE /* DragonAgeGameSystem.m */; };
+		5B31749E154E254B00776ABE /* DragonAgeConditionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B317332154E024500776ABE /* DragonAgeConditionProvider.m */; };
+		5BD86115182EDD30006CA775 /* Reinforcements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD86113182EDD30006CA775 /* Reinforcements.framework */; };
+		5BD86116182EDD30006CA775 /* SupplyLine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD86114182EDD30006CA775 /* SupplyLine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B3172BA154E012500776ABE /* DragonAgeGameSystem.proeliaplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonAgeGameSystem.proeliaplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3172BD154E012500776ABE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5B3172C0154E012500776ABE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5B3172C1154E012500776ABE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B3172C2154E012500776ABE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B3172D3154E013B00776ABE /* DragonAgeGameSystemTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonAgeGameSystemTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3172D4154E013B00776ABE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B3172E8154E023900776ABE /* DragonAgeGameSystemTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DragonAgeGameSystemTests-Info.plist"; sourceTree = "<group>"; };
+		5B3172EA154E023900776ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B3172EC154E023900776ABE /* DragonAgeGameSystemTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DragonAgeGameSystemTests-Prefix.pch"; sourceTree = "<group>"; };
+		5B3172ED154E023900776ABE /* DragonAgeGameSystemTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonAgeGameSystemTests.h; sourceTree = "<group>"; };
+		5B3172EE154E023900776ABE /* DragonAgeGameSystemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonAgeGameSystemTests.m; sourceTree = "<group>"; };
+		5B3172F3154E024500776ABE /* DragonAgeGameSystem-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DragonAgeGameSystem-Info.plist"; sourceTree = "<group>"; };
+		5B3172F5154E024500776ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B3172F7154E024500776ABE /* condition-blinded-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-blinded-off.png"; sourceTree = "<group>"; };
+		5B3172F8154E024500776ABE /* condition-blinded-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-blinded-on.png"; sourceTree = "<group>"; };
+		5B3172F9154E024500776ABE /* condition-blinded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-blinded.png"; sourceTree = "<group>"; };
+		5B3172FA154E024500776ABE /* condition-dazed-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dazed-off.png"; sourceTree = "<group>"; };
+		5B3172FB154E024500776ABE /* condition-dazed-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dazed-on.png"; sourceTree = "<group>"; };
+		5B3172FC154E024500776ABE /* condition-dazed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dazed.png"; sourceTree = "<group>"; };
+		5B3172FD154E024500776ABE /* condition-deafened-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-deafened-off.png"; sourceTree = "<group>"; };
+		5B3172FE154E024500776ABE /* condition-deafened-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-deafened-on.png"; sourceTree = "<group>"; };
+		5B3172FF154E024500776ABE /* condition-deafened.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-deafened.png"; sourceTree = "<group>"; };
+		5B317300154E024500776ABE /* condition-dominated-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dominated-off.png"; sourceTree = "<group>"; };
+		5B317301154E024500776ABE /* condition-dominated-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dominated-on.png"; sourceTree = "<group>"; };
+		5B317302154E024500776ABE /* condition-dominated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dominated.png"; sourceTree = "<group>"; };
+		5B317303154E024500776ABE /* condition-dying-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dying-off.png"; sourceTree = "<group>"; };
+		5B317304154E024500776ABE /* condition-dying-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dying-on.png"; sourceTree = "<group>"; };
+		5B317305154E024500776ABE /* condition-dying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-dying.png"; sourceTree = "<group>"; };
+		5B317306154E024500776ABE /* condition-grabbed-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-grabbed-off.png"; sourceTree = "<group>"; };
+		5B317307154E024500776ABE /* condition-grabbed-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-grabbed-on.png"; sourceTree = "<group>"; };
+		5B317308154E024500776ABE /* condition-grabbed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-grabbed.png"; sourceTree = "<group>"; };
+		5B317309154E024500776ABE /* condition-helpless-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-helpless-off.png"; sourceTree = "<group>"; };
+		5B31730A154E024500776ABE /* condition-helpless-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-helpless-on.png"; sourceTree = "<group>"; };
+		5B31730B154E024500776ABE /* condition-helpless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-helpless.png"; sourceTree = "<group>"; };
+		5B31730C154E024500776ABE /* condition-immobilized-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-immobilized-off.png"; sourceTree = "<group>"; };
+		5B31730D154E024500776ABE /* condition-immobilized-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-immobilized-on.png"; sourceTree = "<group>"; };
+		5B31730E154E024500776ABE /* condition-immobilized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-immobilized.png"; sourceTree = "<group>"; };
+		5B31730F154E024500776ABE /* condition-marked-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-marked-off.png"; sourceTree = "<group>"; };
+		5B317310154E024500776ABE /* condition-marked-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-marked-on.png"; sourceTree = "<group>"; };
+		5B317311154E024500776ABE /* condition-marked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-marked.png"; sourceTree = "<group>"; };
+		5B317312154E024500776ABE /* condition-petrified-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-petrified-off.png"; sourceTree = "<group>"; };
+		5B317313154E024500776ABE /* condition-petrified-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-petrified-on.png"; sourceTree = "<group>"; };
+		5B317314154E024500776ABE /* condition-petrified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-petrified.png"; sourceTree = "<group>"; };
+		5B317315154E024500776ABE /* condition-poisoned-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-poisoned-off.png"; sourceTree = "<group>"; };
+		5B317316154E024500776ABE /* condition-poisoned-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-poisoned-on.png"; sourceTree = "<group>"; };
+		5B317317154E024500776ABE /* condition-poisoned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-poisoned.png"; sourceTree = "<group>"; };
+		5B317318154E024500776ABE /* condition-prone-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-prone-off.png"; sourceTree = "<group>"; };
+		5B317319154E024500776ABE /* condition-prone-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-prone-on.png"; sourceTree = "<group>"; };
+		5B31731A154E024500776ABE /* condition-prone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-prone.png"; sourceTree = "<group>"; };
+		5B31731B154E024500776ABE /* condition-removed-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-removed-off.png"; sourceTree = "<group>"; };
+		5B31731C154E024500776ABE /* condition-removed-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-removed-on.png"; sourceTree = "<group>"; };
+		5B31731D154E024500776ABE /* condition-removed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-removed.png"; sourceTree = "<group>"; };
+		5B31731E154E024500776ABE /* condition-restrained-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-restrained-off.png"; sourceTree = "<group>"; };
+		5B31731F154E024500776ABE /* condition-restrained-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-restrained-on.png"; sourceTree = "<group>"; };
+		5B317320154E024500776ABE /* condition-restrained.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-restrained.png"; sourceTree = "<group>"; };
+		5B317321154E024500776ABE /* condition-slowed-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-slowed-off.png"; sourceTree = "<group>"; };
+		5B317322154E024500776ABE /* condition-slowed-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-slowed-on.png"; sourceTree = "<group>"; };
+		5B317323154E024500776ABE /* condition-slowed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-slowed.png"; sourceTree = "<group>"; };
+		5B317324154E024500776ABE /* condition-stunned-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-stunned-off.png"; sourceTree = "<group>"; };
+		5B317325154E024500776ABE /* condition-stunned-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-stunned-on.png"; sourceTree = "<group>"; };
+		5B317326154E024500776ABE /* condition-stunned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-stunned.png"; sourceTree = "<group>"; };
+		5B317327154E024500776ABE /* condition-surprised-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-surprised-off.png"; sourceTree = "<group>"; };
+		5B317328154E024500776ABE /* condition-surprised-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-surprised-on.png"; sourceTree = "<group>"; };
+		5B317329154E024500776ABE /* condition-surprised.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-surprised.png"; sourceTree = "<group>"; };
+		5B31732A154E024500776ABE /* condition-unconscious-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-unconscious-off.png"; sourceTree = "<group>"; };
+		5B31732B154E024500776ABE /* condition-unconscious-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-unconscious-on.png"; sourceTree = "<group>"; };
+		5B31732C154E024500776ABE /* condition-unconscious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-unconscious.png"; sourceTree = "<group>"; };
+		5B31732D154E024500776ABE /* condition-weakened-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-weakened-off.png"; sourceTree = "<group>"; };
+		5B31732E154E024500776ABE /* condition-weakened-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-weakened-on.png"; sourceTree = "<group>"; };
+		5B31732F154E024500776ABE /* condition-weakened.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "condition-weakened.png"; sourceTree = "<group>"; };
+		5B317331154E024500776ABE /* DragonAgeConditionProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonAgeConditionProvider.h; sourceTree = "<group>"; };
+		5B317332154E024500776ABE /* DragonAgeConditionProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonAgeConditionProvider.m; sourceTree = "<group>"; };
+		5B317333154E024500776ABE /* DragonAgeGameSystem-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DragonAgeGameSystem-Prefix.pch"; sourceTree = "<group>"; };
+		5B317334154E024500776ABE /* DragonAgeGameSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonAgeGameSystem.h; sourceTree = "<group>"; };
+		5B317335154E024500776ABE /* DragonAgeGameSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonAgeGameSystem.m; sourceTree = "<group>"; };
+		5B317373154E1D8300776ABE /* DragonAgeConditionProviderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonAgeConditionProviderTests.h; sourceTree = "<group>"; };
+		5B317374154E1D8300776ABE /* DragonAgeConditionProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonAgeConditionProviderTests.m; sourceTree = "<group>"; };
+		5B317499154E252000776ABE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B31749B154E252E00776ABE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BD86113182EDD30006CA775 /* Reinforcements.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reinforcements.framework; sourceTree = "<group>"; };
+		5BD86114182EDD30006CA775 /* SupplyLine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SupplyLine.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B3172B7154E012500776ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD86115182EDD30006CA775 /* Reinforcements.framework in Frameworks */,
+				5BD86116182EDD30006CA775 /* SupplyLine.framework in Frameworks */,
+				5B3172BE154E012500776ABE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3172CF154E013B00776ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B31749C154E252E00776ABE /* SenTestingKit.framework in Frameworks */,
+				5B31749A154E252000776ABE /* Foundation.framework in Frameworks */,
+				5B3172D6154E013B00776ABE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1D46E7154D91A5003BD052 = {
+			isa = PBXGroup;
+			children = (
+				5B3172C3154E012500776ABE /* DragonAgeGameSystem */,
+				5B3172D7154E013B00776ABE /* DragonAgeGameSystemTests */,
+				5BD86112182EDD30006CA775 /* External */,
+				5B3172BC154E012500776ABE /* Frameworks */,
+				5B3172BB154E012500776ABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B3172BB154E012500776ABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172BA154E012500776ABE /* DragonAgeGameSystem.proeliaplugin */,
+				5B3172D3154E013B00776ABE /* DragonAgeGameSystemTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B3172BC154E012500776ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B31749B154E252E00776ABE /* SenTestingKit.framework */,
+				5B317499154E252000776ABE /* Foundation.framework */,
+				5B3172BD154E012500776ABE /* Cocoa.framework */,
+				5B3172D4154E013B00776ABE /* SenTestingKit.framework */,
+				5B3172BF154E012500776ABE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B3172BF154E012500776ABE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172C0154E012500776ABE /* AppKit.framework */,
+				5B3172C1154E012500776ABE /* CoreData.framework */,
+				5B3172C2154E012500776ABE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5B3172C3154E012500776ABE /* DragonAgeGameSystem */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172F2154E024500776ABE /* Resources */,
+				5B317330154E024500776ABE /* Source */,
+			);
+			path = DragonAgeGameSystem;
+			sourceTree = "<group>";
+		};
+		5B3172D7154E013B00776ABE /* DragonAgeGameSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172E7154E023900776ABE /* Resources */,
+				5B3172EB154E023900776ABE /* Source */,
+			);
+			path = DragonAgeGameSystemTests;
+			sourceTree = "<group>";
+		};
+		5B3172E7154E023900776ABE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172E8154E023900776ABE /* DragonAgeGameSystemTests-Info.plist */,
+				5B3172E9154E023900776ABE /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B3172EB154E023900776ABE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172EC154E023900776ABE /* DragonAgeGameSystemTests-Prefix.pch */,
+				5B3172ED154E023900776ABE /* DragonAgeGameSystemTests.h */,
+				5B3172EE154E023900776ABE /* DragonAgeGameSystemTests.m */,
+				5B317373154E1D8300776ABE /* DragonAgeConditionProviderTests.h */,
+				5B317374154E1D8300776ABE /* DragonAgeConditionProviderTests.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5B3172F2154E024500776ABE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172F3154E024500776ABE /* DragonAgeGameSystem-Info.plist */,
+				5B3172F4154E024500776ABE /* InfoPlist.strings */,
+				5B3172F6154E024500776ABE /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B3172F6154E024500776ABE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5B3172F7154E024500776ABE /* condition-blinded-off.png */,
+				5B3172F8154E024500776ABE /* condition-blinded-on.png */,
+				5B3172F9154E024500776ABE /* condition-blinded.png */,
+				5B3172FA154E024500776ABE /* condition-dazed-off.png */,
+				5B3172FB154E024500776ABE /* condition-dazed-on.png */,
+				5B3172FC154E024500776ABE /* condition-dazed.png */,
+				5B3172FD154E024500776ABE /* condition-deafened-off.png */,
+				5B3172FE154E024500776ABE /* condition-deafened-on.png */,
+				5B3172FF154E024500776ABE /* condition-deafened.png */,
+				5B317300154E024500776ABE /* condition-dominated-off.png */,
+				5B317301154E024500776ABE /* condition-dominated-on.png */,
+				5B317302154E024500776ABE /* condition-dominated.png */,
+				5B317303154E024500776ABE /* condition-dying-off.png */,
+				5B317304154E024500776ABE /* condition-dying-on.png */,
+				5B317305154E024500776ABE /* condition-dying.png */,
+				5B317306154E024500776ABE /* condition-grabbed-off.png */,
+				5B317307154E024500776ABE /* condition-grabbed-on.png */,
+				5B317308154E024500776ABE /* condition-grabbed.png */,
+				5B317309154E024500776ABE /* condition-helpless-off.png */,
+				5B31730A154E024500776ABE /* condition-helpless-on.png */,
+				5B31730B154E024500776ABE /* condition-helpless.png */,
+				5B31730C154E024500776ABE /* condition-immobilized-off.png */,
+				5B31730D154E024500776ABE /* condition-immobilized-on.png */,
+				5B31730E154E024500776ABE /* condition-immobilized.png */,
+				5B31730F154E024500776ABE /* condition-marked-off.png */,
+				5B317310154E024500776ABE /* condition-marked-on.png */,
+				5B317311154E024500776ABE /* condition-marked.png */,
+				5B317312154E024500776ABE /* condition-petrified-off.png */,
+				5B317313154E024500776ABE /* condition-petrified-on.png */,
+				5B317314154E024500776ABE /* condition-petrified.png */,
+				5B317315154E024500776ABE /* condition-poisoned-off.png */,
+				5B317316154E024500776ABE /* condition-poisoned-on.png */,
+				5B317317154E024500776ABE /* condition-poisoned.png */,
+				5B317318154E024500776ABE /* condition-prone-off.png */,
+				5B317319154E024500776ABE /* condition-prone-on.png */,
+				5B31731A154E024500776ABE /* condition-prone.png */,
+				5B31731B154E024500776ABE /* condition-removed-off.png */,
+				5B31731C154E024500776ABE /* condition-removed-on.png */,
+				5B31731D154E024500776ABE /* condition-removed.png */,
+				5B31731E154E024500776ABE /* condition-restrained-off.png */,
+				5B31731F154E024500776ABE /* condition-restrained-on.png */,
+				5B317320154E024500776ABE /* condition-restrained.png */,
+				5B317321154E024500776ABE /* condition-slowed-off.png */,
+				5B317322154E024500776ABE /* condition-slowed-on.png */,
+				5B317323154E024500776ABE /* condition-slowed.png */,
+				5B317324154E024500776ABE /* condition-stunned-off.png */,
+				5B317325154E024500776ABE /* condition-stunned-on.png */,
+				5B317326154E024500776ABE /* condition-stunned.png */,
+				5B317327154E024500776ABE /* condition-surprised-off.png */,
+				5B317328154E024500776ABE /* condition-surprised-on.png */,
+				5B317329154E024500776ABE /* condition-surprised.png */,
+				5B31732A154E024500776ABE /* condition-unconscious-off.png */,
+				5B31732B154E024500776ABE /* condition-unconscious-on.png */,
+				5B31732C154E024500776ABE /* condition-unconscious.png */,
+				5B31732D154E024500776ABE /* condition-weakened-off.png */,
+				5B31732E154E024500776ABE /* condition-weakened-on.png */,
+				5B31732F154E024500776ABE /* condition-weakened.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5B317330154E024500776ABE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B317331154E024500776ABE /* DragonAgeConditionProvider.h */,
+				5B317332154E024500776ABE /* DragonAgeConditionProvider.m */,
+				5B317333154E024500776ABE /* DragonAgeGameSystem-Prefix.pch */,
+				5B317334154E024500776ABE /* DragonAgeGameSystem.h */,
+				5B317335154E024500776ABE /* DragonAgeGameSystem.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5BD86112182EDD30006CA775 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				5BD86113182EDD30006CA775 /* Reinforcements.framework */,
+				5BD86114182EDD30006CA775 /* SupplyLine.framework */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B3172B9154E012500776ABE /* DragonAgeGameSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3172CC154E012500776ABE /* Build configuration list for PBXNativeTarget "DragonAgeGameSystem" */;
+			buildPhases = (
+				5B3172B6154E012500776ABE /* Sources */,
+				5B3172B7154E012500776ABE /* Frameworks */,
+				5B3172B8154E012500776ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonAgeGameSystem;
+			productName = DragonAgeGameSystem;
+			productReference = 5B3172BA154E012500776ABE /* DragonAgeGameSystem.proeliaplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5B3172D2154E013B00776ABE /* DragonAgeGameSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3172E1154E013B00776ABE /* Build configuration list for PBXNativeTarget "DragonAgeGameSystemTests" */;
+			buildPhases = (
+				5B3172CE154E013B00776ABE /* Sources */,
+				5B3172CF154E013B00776ABE /* Frameworks */,
+				5B3172D0154E013B00776ABE /* Resources */,
+				5B3172D1154E013B00776ABE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonAgeGameSystemTests;
+			productName = DragonAgeGameSystemTests;
+			productReference = 5B3172D3154E013B00776ABE /* DragonAgeGameSystemTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1D46E9154D91A5003BD052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DND4;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Pilgrimage Software";
+			};
+			buildConfigurationList = 5B1D46EC154D91A5003BD052 /* Build configuration list for PBXProject "DragonAgeGameSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B1D46E7154D91A5003BD052;
+			productRefGroup = 5B3172BB154E012500776ABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B3172B9154E012500776ABE /* DragonAgeGameSystem */,
+				5B3172D2154E013B00776ABE /* DragonAgeGameSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B3172B8154E012500776ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B317336154E024600776ABE /* DragonAgeGameSystem-Info.plist in Resources */,
+				5B317337154E024600776ABE /* InfoPlist.strings in Resources */,
+				5B317338154E024600776ABE /* condition-blinded-off.png in Resources */,
+				5B317339154E024600776ABE /* condition-blinded-on.png in Resources */,
+				5B31733A154E024600776ABE /* condition-blinded.png in Resources */,
+				5B31733B154E024600776ABE /* condition-dazed-off.png in Resources */,
+				5B31733C154E024600776ABE /* condition-dazed-on.png in Resources */,
+				5B31733D154E024600776ABE /* condition-dazed.png in Resources */,
+				5B31733E154E024600776ABE /* condition-deafened-off.png in Resources */,
+				5B31733F154E024600776ABE /* condition-deafened-on.png in Resources */,
+				5B317340154E024600776ABE /* condition-deafened.png in Resources */,
+				5B317341154E024600776ABE /* condition-dominated-off.png in Resources */,
+				5B317342154E024600776ABE /* condition-dominated-on.png in Resources */,
+				5B317343154E024600776ABE /* condition-dominated.png in Resources */,
+				5B317344154E024600776ABE /* condition-dying-off.png in Resources */,
+				5B317345154E024600776ABE /* condition-dying-on.png in Resources */,
+				5B317346154E024600776ABE /* condition-dying.png in Resources */,
+				5B317347154E024600776ABE /* condition-grabbed-off.png in Resources */,
+				5B317348154E024600776ABE /* condition-grabbed-on.png in Resources */,
+				5B317349154E024600776ABE /* condition-grabbed.png in Resources */,
+				5B31734A154E024600776ABE /* condition-helpless-off.png in Resources */,
+				5B31734B154E024600776ABE /* condition-helpless-on.png in Resources */,
+				5B31734C154E024600776ABE /* condition-helpless.png in Resources */,
+				5B31734D154E024600776ABE /* condition-immobilized-off.png in Resources */,
+				5B31734E154E024600776ABE /* condition-immobilized-on.png in Resources */,
+				5B31734F154E024600776ABE /* condition-immobilized.png in Resources */,
+				5B317350154E024600776ABE /* condition-marked-off.png in Resources */,
+				5B317351154E024600776ABE /* condition-marked-on.png in Resources */,
+				5B317352154E024600776ABE /* condition-marked.png in Resources */,
+				5B317353154E024600776ABE /* condition-petrified-off.png in Resources */,
+				5B317354154E024600776ABE /* condition-petrified-on.png in Resources */,
+				5B317355154E024600776ABE /* condition-petrified.png in Resources */,
+				5B317356154E024600776ABE /* condition-poisoned-off.png in Resources */,
+				5B317357154E024600776ABE /* condition-poisoned-on.png in Resources */,
+				5B317358154E024600776ABE /* condition-poisoned.png in Resources */,
+				5B317359154E024600776ABE /* condition-prone-off.png in Resources */,
+				5B31735A154E024600776ABE /* condition-prone-on.png in Resources */,
+				5B31735B154E024600776ABE /* condition-prone.png in Resources */,
+				5B31735C154E024600776ABE /* condition-removed-off.png in Resources */,
+				5B31735D154E024600776ABE /* condition-removed-on.png in Resources */,
+				5B31735E154E024600776ABE /* condition-removed.png in Resources */,
+				5B31735F154E024600776ABE /* condition-restrained-off.png in Resources */,
+				5B317360154E024600776ABE /* condition-restrained-on.png in Resources */,
+				5B317361154E024600776ABE /* condition-restrained.png in Resources */,
+				5B317362154E024600776ABE /* condition-slowed-off.png in Resources */,
+				5B317363154E024600776ABE /* condition-slowed-on.png in Resources */,
+				5B317364154E024600776ABE /* condition-slowed.png in Resources */,
+				5B317365154E024600776ABE /* condition-stunned-off.png in Resources */,
+				5B317366154E024600776ABE /* condition-stunned-on.png in Resources */,
+				5B317367154E024600776ABE /* condition-stunned.png in Resources */,
+				5B317368154E024600776ABE /* condition-surprised-off.png in Resources */,
+				5B317369154E024600776ABE /* condition-surprised-on.png in Resources */,
+				5B31736A154E024600776ABE /* condition-surprised.png in Resources */,
+				5B31736B154E024600776ABE /* condition-unconscious-off.png in Resources */,
+				5B31736C154E024600776ABE /* condition-unconscious-on.png in Resources */,
+				5B31736D154E024600776ABE /* condition-unconscious.png in Resources */,
+				5B31736E154E024600776ABE /* condition-weakened-off.png in Resources */,
+				5B31736F154E024600776ABE /* condition-weakened-on.png in Resources */,
+				5B317370154E024600776ABE /* condition-weakened.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3172D0154E013B00776ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3172EF154E023900776ABE /* DragonAgeGameSystemTests-Info.plist in Resources */,
+				5B3172F0154E023900776ABE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B3172D1154E013B00776ABE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B3172B6154E012500776ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B317371154E024600776ABE /* DragonAgeConditionProvider.m in Sources */,
+				5B317372154E024600776ABE /* DragonAgeGameSystem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3172CE154E013B00776ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3172F1154E023900776ABE /* DragonAgeGameSystemTests.m in Sources */,
+				5B317375154E1D8300776ABE /* DragonAgeConditionProviderTests.m in Sources */,
+				5B31749D154E254700776ABE /* DragonAgeGameSystem.m in Sources */,
+				5B31749E154E254B00776ABE /* DragonAgeConditionProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B3172E9154E023900776ABE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B3172EA154E023900776ABE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B3172F4154E024500776ABE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B3172F5154E024500776ABE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1D46EE154D91A5003BD052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5B1D46EF154D91A5003BD052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5B3172CA154E012500776ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Core/Proelia/Source/**",
+					../../Shared/Source,
+				);
+				INFOPLIST_FILE = "DragonAgeGameSystem/Resources/DragonAgeGameSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = proeliaplugin;
+			};
+			name = Debug;
+		};
+		5B3172CB154E012500776ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Core/Proelia/Source/**",
+					../../Shared/Source,
+				);
+				INFOPLIST_FILE = "DragonAgeGameSystem/Resources/DragonAgeGameSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = proeliaplugin;
+			};
+			name = Release;
+		};
+		5B3172E2154E013B00776ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragonAgeGameSystemTests/Source/DragonAgeGameSystemTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../Shared/Source,
+					"../../Core/Proelia/Source/**",
+				);
+				INFOPLIST_FILE = "DragonAgeGameSystemTests/Resources/DragonAgeGameSystemTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B3172E3154E013B00776ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragonAgeGameSystemTests/Source/DragonAgeGameSystemTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../Shared/Source,
+					"../../Core/Proelia/Source/**",
+				);
+				INFOPLIST_FILE = "DragonAgeGameSystemTests/Resources/DragonAgeGameSystemTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1D46EC154D91A5003BD052 /* Build configuration list for PBXProject "DragonAgeGameSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1D46EE154D91A5003BD052 /* Debug */,
+				5B1D46EF154D91A5003BD052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3172CC154E012500776ABE /* Build configuration list for PBXNativeTarget "DragonAgeGameSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3172CA154E012500776ABE /* Debug */,
+				5B3172CB154E012500776ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3172E1154E013B00776ABE /* Build configuration list for PBXNativeTarget "DragonAgeGameSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3172E2154E013B00776ABE /* Debug */,
+				5B3172E3154E013B00776ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1D46E9154D91A5003BD052 /* Project object */;
+}
